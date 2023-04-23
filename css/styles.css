@@ -220,6 +220,7 @@ p {
 
 .hero-saction {
   background-color: var(--color-navy-blue);
+  padding: 188px 0;
 }
 .main-hero-title {
   font-size: 56px;
@@ -241,7 +242,6 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -258,13 +258,20 @@ p {
 
 /* Saction-1-advantage */
 
+.advantage section {
+  padding: 120px 0;
+}
+
 .main-advantage-section {
+  margin-bottom: 8px;
 }
 .advantage-list {
+  display: flex;
+  gap: 24px;
 }
-.list {
-}
+
 .advantage-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .advantage-list-title {
   font-size: 20px;
@@ -282,10 +289,10 @@ p {
 
 /* Section-2-work */
 
-.work {
+.work-section {
+  padding-bottom: 120px;
 }
-.section {
-}
+
 .section-title {
   font-size: 36px;
   font-family: 'Roboto';
@@ -297,25 +304,29 @@ p {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .work-title {
 }
 .work-list {
+  display: flex;
+  gap: 24px;
 }
 .list {
 }
 .work-list-item {
+  width: calc((100% - 48px) / 3);
 }
 .work-list-img {
 }
 
 /* Section-3-team */
 
-.team {
+.team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
-.section {
-}
+
 .section-title {
   font-size: 36px;
   font-family: 'Roboto';
@@ -327,16 +338,25 @@ p {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-title {
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-list-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.container-profession {
+  padding: 32px 16px;
 }
 .team-list-img {
 }
+
 .team-subtitle {
   font-size: 20px;
   font-family: 'Roboto';
@@ -347,6 +367,8 @@ p {
   text-decoration: none;
   text-transform: none;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8p;
 }
 .team-desc {
   font-size: 16px;
@@ -358,12 +380,14 @@ p {
   text-decoration: none;
   text-transform: none;
   color: #434455;
+  text-align: center;
 }
 
 /* Footer styles */
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-link {
   font-family: Raleway, sans-serif;
@@ -374,6 +398,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-web-studio {
