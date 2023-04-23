@@ -63,6 +63,12 @@ img {
   padding: 24px 0;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* reset start */
 
 .section-title {
@@ -109,15 +115,9 @@ img {
 }
 
 /* Header styles */
-
-.header-container {
-  border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.header-main-container {
+.header .header-main-container {
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-main-nav {
   display: flex;
