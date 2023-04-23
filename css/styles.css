@@ -18,6 +18,16 @@
   /* Others */
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /* Base styles */
 body {
   font-size: 16px;
@@ -31,6 +41,12 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+/* Normalize vs Reset */
+img {
+  display: block;
+}
+
 .button {
   font-family: inherit;
 }
