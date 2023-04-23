@@ -48,8 +48,8 @@ img {
 }
 
 .button {
-  font-family: Roboto, sans-serif;
   display: block;
+  font-family: Roboto, sans-serif;
   cursor: pointer;
   min-width: 169px;
 }
@@ -218,7 +218,7 @@ p {
 
 /* Section-Hero */
 
-.hero-saction {
+.hero-section {
   background-color: var(--color-navy-blue);
   padding: 188px 0;
 }
@@ -236,6 +236,7 @@ p {
   max-width: 496px;
 }
 .button {
+  display: block;
   font-family: Roboto, sans-serif;
   background-color: var(--color-iris);
   font-style: normal;
@@ -256,14 +257,13 @@ p {
   background-color: var(--color-ocean);
 }
 
-/* Saction-1-advantage */
+/* Section-1-advantage */
 
-.advantage section {
+.advantage-section {
   padding: 120px 0;
 }
 
 .main-advantage-section {
-  margin-bottom: 8px;
 }
 .advantage-list {
   display: flex;
@@ -272,6 +272,7 @@ p {
 
 .advantage-list-item {
   width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
 }
 .advantage-list-title {
   font-size: 20px;
@@ -368,7 +369,7 @@ p {
   text-transform: none;
   color: #2e2f42;
   text-align: center;
-  margin-bottom: 8p;
+  margin-bottom: 8px;
 }
 .team-desc {
   font-size: 16px;
