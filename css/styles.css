@@ -201,7 +201,7 @@ img {
 .hero-saction {
   background-color: var(--color-navy-blue);
 }
-.main-title {
+.main-hero-title {
   font-size: 56px;
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -212,6 +212,7 @@ img {
   text-decoration: none;
   text-transform: none;
   color: #ffffff;
+  max-width: 496px;
 }
 .button {
   font-family: Roboto, sans-serif;
@@ -227,6 +228,11 @@ img {
   text-decoration: none;
   text-transform: none;
   cursor: pointer;
+  display: block
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
