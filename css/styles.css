@@ -110,6 +110,10 @@ img {
 /* Header styles */
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-main-container {
+  display: flex;
 }
 .header-nav-link {
   font-family: Roboto, sans-serif;
