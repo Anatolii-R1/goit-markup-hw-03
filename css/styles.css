@@ -144,6 +144,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  margin-right: 76px;
 }
 
 .span {
@@ -165,6 +166,9 @@ img {
   color: var(--color-navy-blue);
 }
 .header-nav-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 .header-nav-item {
 }
@@ -172,6 +176,8 @@ img {
   font-style: normal;
 }
 .header-address-list {
+  display: flex;
+  gap: 40px;
 }
 .header-address-item {
 }
