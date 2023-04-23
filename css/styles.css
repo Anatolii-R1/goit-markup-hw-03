@@ -48,14 +48,29 @@ img {
 }
 
 .button {
-  font-family: inherit;
+  font-family: Roboto, sans-serif;
+  display: block;
+  cursor: pointer;
+  min-width: 169px;
 }
 .section {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 .list {
   color: inherit;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
@@ -67,6 +82,9 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /* reset start */
@@ -119,12 +137,14 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-main-container {
+.header-container {
   display: flex;
+  align-items: center;
 }
 .header-main-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .header-nav-link {
   font-family: Roboto, sans-serif;
@@ -227,9 +247,6 @@ img {
   color: #ffffff;
   text-decoration: none;
   text-transform: none;
-  cursor: pointer;
-  display: block
-  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -358,8 +375,7 @@ img {
   text-transform: uppercase;
   color: var(--color-iris);
 }
-.link {
-}
+
 .logo-web-studio {
   font-family: Raleway, sans-serif;
   font-style: normal;
