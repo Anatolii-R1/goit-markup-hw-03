@@ -48,6 +48,7 @@ img {
 }
 
 .button {
+  display: block;
   font-family: Roboto, sans-serif;
   cursor: pointer;
   min-width: 169px;
@@ -491,42 +492,6 @@ p {
 .header-address-link:hover,
 .header-address-link:focus {
   color: #404bbf;
-}
-
-/* Section-Hero */
-
-.main-title {
-  background: var(--color-navy-blue);
-  font-size: 56px;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
-  color: #ffffff;
-  background-color: var(--color-navy-blue);
-}
-.button {
-  font-family: inherit;
-  background-color: var(--color-iris);
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: none;
-}
-.button:hover,
-.button:focus {
-  background-color: var(--color-ocean);
 }
 
 /* Filters styles */
