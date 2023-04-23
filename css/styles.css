@@ -48,7 +48,6 @@ img {
 }
 
 .button {
-  display: block;
   font-family: Roboto, sans-serif;
   cursor: pointer;
   min-width: 169px;
@@ -263,7 +262,6 @@ p {
 }
 
 .main-advantage-section {
-  margin-bottom: 8px;
 }
 .advantage-list {
   display: flex;
@@ -283,6 +281,7 @@ p {
   text-decoration: none;
   text-transform: none;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .advantage-list-subtitle {
 }
